@@ -3,3 +3,7 @@ body { font-family: Arial, sans-serif; }
 h1, h2 { color: brown; }
 
 .evenrow { background-color: whitesmoke; }
+
+h1 { font-size: 2em; }
+
+h2 { font-size: 1em; }
