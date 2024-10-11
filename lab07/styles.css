@@ -14,11 +14,11 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     background-color: #091057;
+    margin-bottom: 30px;
 }
 
 nav a {
     color: #024CAA;
-    text-decoration: none;
     padding: 10px;
 }
 
@@ -26,4 +26,5 @@ nav a:hover, nav a:active {
     background-color: #091057;
     color: #DBD3D3;
 }
+
     </style>
