@@ -1,4 +1,8 @@
 <style>
+
+.img1 {float:left; margin-right: 10px;}
+.clear {clear: both;}
+
 body {
     background-color: #0D92F4; 
     color: #BCF2F6;
@@ -27,4 +31,4 @@ nav a:hover, nav a:active {
     color: #DBD3D3;
 }
 
-    </style>
+</style>
