@@ -1,6 +1,6 @@
 <style>
 
-.img1 {
+.ChosenFamily {
     float:left; margin-right: 10px;
 }
 .clear {
@@ -67,5 +67,31 @@ nav a:hover, nav a:active {
 .form-container, .map-container {
     flex: 1;
     padding: 10px;
+}
+.ChosenFamily {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav span {
+        display: none;
+    }
+
+    nav a:not(:last-child) {
+        margin-bottom: 5px;
+    }
 }
 </style>
