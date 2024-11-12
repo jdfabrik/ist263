@@ -7,10 +7,7 @@
     clear: both;
 }
 
-body {
-    background-color: #0D92F4; 
-    color: #BCF2F6;
-}
+
 
 a {
     color: #F95454;
@@ -83,6 +80,8 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden;
+    background-color: #0D92F4; 
+    color: #BCF2F6;
   }
 
   
