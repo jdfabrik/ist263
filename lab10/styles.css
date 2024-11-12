@@ -78,7 +78,29 @@ nav a:hover, nav a:active {
     flex-wrap: wrap;
 }
 
-@media (max-width: 768px) {
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  
+  .fullscreen-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media (min-width: 800px) {
+    .fullscreen-image 
+     
+      object-fit: contain;
+      background-color: #f0f0f0; 
+    }
     nav a {
         display: block;
         width: 100%;
@@ -93,5 +115,4 @@ nav a:hover, nav a:active {
     nav a:not(:last-child) {
         margin-bottom: 5px;
     }
-}
 </style>
