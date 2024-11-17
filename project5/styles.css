@@ -23,6 +23,7 @@ nav {
     background-color: #091057;
     margin-bottom: 30px;
     padding: 10px;
+    display: flex;
 }
 
 nav a {
