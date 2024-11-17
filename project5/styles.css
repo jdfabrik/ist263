@@ -100,18 +100,5 @@ body, html {
       object-fit: contain;
       background-color: #f0f0f0; 
     }
-    nav a {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    nav span {
-        display: none;
-    }
-
-    nav a:not(:last-child) {
-        margin-bottom: 5px;
-    }
+    
 </style>
