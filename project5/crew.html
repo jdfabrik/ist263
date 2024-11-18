@@ -1,140 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luffy's Crew</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Straw Hat Crew</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
 
-        nav {
-            background-color: #333;
-            padding: 15px;
-            text-align: center;
-        }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 20px;
+    }
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-            transition: color 0.3s;
-        }
+    .content {
+      flex: 2;
+      margin-right: 20px;
+    }
 
-        nav a:hover {
-            color: #ffa500;
-        }
+    .content h1 {
+      font-size: 2.5rem;
+      color: #1e81b0;
+    }
 
-        h1 {
-            text-align: center;
-            margin: 20px 0;
-            color: #222;
-            font-size: 2.5em;
-        }
+    .content p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
 
-        .content {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
 
-        .crew-member {
-            margin-bottom: 25px;
-            padding: 15px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            background: #fafafa;
-        }
+    ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd;
+    }
 
-        .crew-member:hover {
-            background: #f0f0f0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-        }
+    ul li strong {
+      color: #d9534f;
+    }
 
-        .crew-member h3 {
-            margin: 0 0 10px;
-            color: #444;
-            font-size: 1.5em;
-        }
+    ul li span {
+      display: block;
+      font-size: 0.9rem;
+      color: #555;
+      margin-top: 5px;
+    }
 
-        .crew-member p {
-            margin: 0 0 5px;
-            font-size: 1em;
-            color: #666;
-            line-height: 1.6;
-        }
+    .image-container {
+      flex: 1;
+      text-align: center;
+      width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
 
-        .crew-member .role {
-            font-weight: bold;
-            font-size: 1.2em;
-            color: #333;
-        }
+    .image-container img {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      border-radius: 10px;
+      border: 3px solid #ddd;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-        .icon {
-            font-size: 2em;
-            color: #ffa500;
-            margin-right: 10px;
-        }
-    </style>
+    footer {
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #1e81b0;
+      color: #fff;
+      font-size: 1rem;
+    }
+  </style>
 </head>
 <body>
     <nav>
-        <a href="onepiece.html">One Piece</a> <span>|</span>
-        <a href="df.html">Devil Fruits</a> <span>|</span>
-        <a href="family.html">Family</a> <span>|</span>
-        <a href="crew.html">Crew</a>
-    </nav>
-
-    <h1>Luffy's Crew</h1>
-
+        <a href="onepiece.html">Home</a> |
+        <a href="df.html">Devil Fruits</a> |
+        <a href="crew.html">Crew</a> |
+        <a href="family.html">Luffy's Family</a>
+      </nav>
+  <div class="container">
     <div class="content">
-        <div class="crew-member">
-            <h3><i class="fas fa-hat-cowboy icon"></i> Monkey D. Luffy</h3>
-            <p class="role">Captain</p>
-            <p>The captain of the Straw Hat Pirates, Luffy is a fearless leader with a dream to become the Pirate King. His Gomu Gomu no Mi powers make him a rubber man with incredible strength and resilience.</p>
-        </div>
-
-        <div class="crew-member">
-            <h3><i class="fas fa-swords icon"></i> Roronoa Zoro</h3>
-            <p class="role">Swordsman</p>
-            <p>Zoro is a master swordsman who wields three swords with unmatched skill. He dreams of becoming the world's greatest swordsman and is fiercely loyal to Luffy.</p>
-        </div>
-
-        <div class="crew-member">
-            <h3><i class="fas fa-anchor icon"></i> Nami</h3>
-            <p class="role">Navigator</p>
-            <p>A skilled navigator and cartographer, Nami dreams of mapping the entire world. She uses her intelligence and weather-controlling weapon, the Clima-Tact, to protect her crew.</p>
-        </div>
-
-        <div class="crew-member">
-            <h3><i class="fas fa-crosshairs icon"></i> Usopp</h3>
-            <p class="role">Sniper</p>
-            <p>Known for his sharp shooting and creativity, Usopp dreams of becoming a brave warrior of the sea. He is the Straw Hat Pirates' comedic relief and a loyal friend.</p>
-        </div>
-
-        <div class="crew-member">
-            <h3><i class="fas fa-fist-raised icon"></i> Sanji</h3>
-            <p class="role">Chef</p>
-            <p>Sanji is the crew's chef, known for his culinary mastery and powerful kicks. His dream is to find the All Blue, a legendary sea where all the fish of the world gather.</p>
-        </div>
-
-        <div class="crew-member">
-            <h3><i class="fas fa-skull icon"></i> Tony Tony Chopper</h3>
-            <p class="role">Doctor</p>
-            <p>A reindeer with the ability to transform into a human, Chopper is the crew's doctor. He dreams of becoming a doctor who can cure any disease.</p>
-        </div>
+      <h1>The Legendary Straw Hat Crew</h1>
+      <p>
+        Meet the fearless adventurers of the Grand Line! Each Straw Hat Pirate brings unique skills, quirks, and dreams that make this crew one of a kind. Together, they chase the ultimate treasure, the One Piece!
+      </p>
+      <ul>
+        <li>
+          <strong>Luffy:</strong> Captain and aspiring Pirate King.
+          <span>A fearless leader with a love for adventure and an insatiable appetite.</span>
+        </li>
+        <li>
+          <strong>Zoro:</strong> Swordsman with unmatched skills.
+          <span>A master of the three-sword style and a loyal warrior with a poor sense of direction.</span>
+        </li>
+        <li>
+          <strong>Nami:</strong> Navigator and cartographer.
+          <span>Her sharp mind and love for treasure guide the crew through dangerous seas.</span>
+        </li>
+        <li>
+          <strong>Usopp:</strong> Marksman and storyteller.
+          <span>The crew's sniper and comic relief, always armed with creativity and courage.</span>
+        </li>
+        <li>
+          <strong>Sanji:</strong> Chef with deadly kicks.
+          <span>A culinary genius and chivalrous fighter with a flair for romance.</span>
+        </li>
+        <li>
+          <strong>Chopper:</strong> Doctor with a kind heart.
+          <span>A reindeer with medical expertise and a loveable personality.</span>
+        </li>
+        <li>
+          <strong>Robin:</strong> Archaeologist seeking the truth of the Void Century.
+          <span>Wise, calm, and mysterious, she's the key to uncovering history's secrets.</span>
+        </li>
+        <li>
+          <strong>Franky:</strong> Shipwright and cyborg innovator.
+          <span>An eccentric genius who built the crew's ship, the Thousand Sunny.</span>
+        </li>
+        <li>
+          <strong>Brook:</strong> Musician with a bone-chilling laugh.
+          <span>A soulful skeleton who brings joy through music and swordsmanship.</span>
+        </li>
+        <li>
+          <strong>Jinbe:</strong> Helmsman and Fishman Karate master.
+          <span>A seasoned warrior with a strong sense of honor and calm wisdom.</span>
+        </li>
+      </ul>
     </div>
+
+    <div class="image-container">
+      <img src="../images/one-piece-pictures-bjm9tdff9yzguoup.webp" alt="Straw Hat Crew">
+    </div>
+  </div>
+
+  <footer>
+    "The world is vast, and adventure awaits!" - Monkey D. Luffy
+  </footer>
 </body>
 </html>
