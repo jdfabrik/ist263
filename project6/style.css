@@ -1,17 +1,17 @@
 
-<style>
+/* General body styles */
 body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4; 
-    color: #333; 
+    background-color: #f4f4f4; /* Light background */
+    color: #333; /* Neutral text color */
     line-height: 1.6;
 }
 
-
+/* Navigation styles */
 nav {
-    background-color: #1E90FF; 
+    background-color: #1E90FF; /* Vibrant blue */
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ nav {
 }
 
 nav a {
-    color: #FFD700; 
+    color: #FFD700; /* Golden links */
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -27,11 +27,11 @@ nav a {
 }
 
 nav a:hover, nav a:active {
-    color: #FF4500; 
+    color: #FF4500; /* Orange accent */
     transform: scale(1.1);
 }
 
-
+/* Header styles */
 header {
     text-align: center;
     padding: 20px;
@@ -49,7 +49,7 @@ header h1, header h2 {
     margin: 10px 0;
 }
 
-
+/* Main content styles */
 .container {
     display: flex;
     justify-content: space-between;
@@ -76,7 +76,7 @@ header h1, header h2 {
     border-radius: 10px;
 }
 
-
+/* List styles */
 ul {
     list-style-type: none;
     padding: 0;
@@ -88,7 +88,7 @@ ul li {
 }
 
 ul li strong {
-    color: #FF4500; 
+    color: #FF4500; /* Highlight important text */
 }
 
 ul li span {
@@ -98,7 +98,7 @@ ul li span {
     margin-top: 5px;
 }
 
-
+/* Specific component styles */
 .devilfruit, .family-member {
     text-align: center;
     padding: 15px;
@@ -109,7 +109,7 @@ ul li span {
 }
 
 .devilfruit i, .family-member i {
-    font-size: 50px; 
+    font-size: 50px; /* Icon size */
     color: #1E90FF;
     margin-bottom: 10px;
 }
@@ -119,7 +119,7 @@ ul li span {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-
+/* Footer styles */
 footer {
     text-align: center;
     padding: 10px;
@@ -128,7 +128,7 @@ footer {
     color: #fff;
 }
 
-
+/* Utility classes */
 .row1, .row2 {
     display: flex;
     flex-wrap: wrap;
@@ -139,15 +139,15 @@ footer {
 }
 
 .row1 {
-    background-color: #FFD700; 
+    background-color: #FFD700; /* Yellow row background */
 }
 
 .row2 {
-    background-color: #FF4500; 
+    background-color: #FF4500; /* Orange row background */
     color: #fff;
 }
 
-
+/* Responsive styles */
 @media (max-width: 800px) {
     .container {
         flex-direction: column;
@@ -156,4 +156,4 @@ footer {
     .image-container, .content {
         margin: 0 auto;
     }
-}</style>
+}
