@@ -1,0 +1,148 @@
+
+<style> 
+    body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    height: auto;
+    overflow: auto;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #91c1ff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover, nav a:active {
+    color: #DBD3D3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
+    color: #1e81b0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 25px;
+    color: #444;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.container, .flexbox1, .flexbox2, .contact-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.content {
+    flex: 2;
+    margin-right: 20px;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.image-container, .devilfruit, .family-member {
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img, .family-member img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #1e81b0;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
+
+
+.row1, .row2 {
+    display: flex; 
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.row1 {
+    background-color: #0D92F4;
+}
+
+.row2 {
+    background-color: #C62E2E;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li strong {
+    color: #d9534f;
+}
+
+ul li span {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+
+@media (min-width: 800px) {
+    .fullscreen-image {
+        object-fit: contain;
+        background-color: #f0f0f0;
+    }
+}
+</style>

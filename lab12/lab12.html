@@ -12,7 +12,7 @@
         #slideshow-container {
             background-color: #000000;
             width: 1200px;
-            margin: auto; /* Centers the container */        
+            margin: auto;         
         }
         #bigimages {margin-right: 100px;}
         #planetinfo {padding: 100px;}
@@ -20,14 +20,14 @@
         #mercurythumb, #venusthumb, #earththumb, #marsthumb, #jupiterthumb, #saturnthumb, #uranusthumb, #neptunethumb {
             width: 100px;
         }
-        #bigimages img, #planetinfo div {display: none;} /* Hide all by default */
+        #bigimages img, #planetinfo div {display: none;} 
     </style>
     <script>
         function PlanetsOff() {
             const planets = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune'];
             planets.forEach(planet => {
-                document.getElementById(planet).style.display = 'none'; // Hide the image
-                document.getElementById(planet + 'info').style.display = 'none'; // Hide the text
+                document.getElementById(planet).style.display = 'none'; 
+                document.getElementById(planet + 'info').style.display = 'none'; 
             });
         }
 
@@ -81,7 +81,7 @@
 
         window.onload = function() {
             PlanetsOff();
-            ShowMercury(); // Display Mercury by default
+            ShowMercury(); 
         };
     </script>
 </head>
