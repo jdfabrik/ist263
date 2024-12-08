@@ -21,13 +21,13 @@ h1, h2, h3, h4, h5, h6 {
 
 nav {
     background-color: #091057;
-    margin-bottom: 40%;
-    padding: 40%;
+    margin-bottom: 4%;
+    padding: 4%;
 }
 
 nav a {
     color: #024CAA;
-    padding: 40%;
+    padding: 4%;
 }
 
 nav a:hover, nav a:active {
@@ -45,25 +45,25 @@ nav a:hover, nav a:active {
 
 .row1 {
     display: flex; 
-    margin: 40%;
-    padding: 40%;
+    margin: 4%;
+    padding: 4%;
     background-color: #0D92F4;
-    border-radius: 40%;
+    border-radius: 4%;
 }
 
 .row2 {
     display: flex; 
-    margin: 40%;
-    padding: 40%;
+    margin: 4%;
+    padding: 4%;
     background-color: #C62E2E;
-    border-radius: 40%;
-    margin-top: 90%
+    border-radius: 4%;
+    margin-top: 9%
 }
 
 
 .form-container, .map-container {
     flex: 1;
-    padding: 40%;
+    padding: 4%;
 }
 .ChosenFamily {
     max-width: 100%;
@@ -104,7 +104,7 @@ body, html {
         display: block;
         width: 10%;
         text-align: center;
-        padding: 40%;
+        padding: 4%;
     }
 
     nav span {
@@ -112,6 +112,6 @@ body, html {
     }
 
     nav a:not(:last-child) {
-        margin-bottom: 40%;
+        margin-bottom: 4%;
     }
 </style>
