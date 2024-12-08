@@ -1,13 +1,12 @@
-<style>
-
-.ChosenFamily {
-    float:left; margin-right: 10px;
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #0D92F4; 
+    color: #BCF2F6;
 }
-.clear {
-    clear: both;
-}
-
-
 
 a {
     color: #F95454;
@@ -19,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 50px;
 }
 
+/* Navigation Bar */
 nav {
     background-color: #091057;
     margin-bottom: 30px;
@@ -30,11 +30,30 @@ nav a {
     padding: 10px;
 }
 
-nav a:hover, nav a:active {
+nav a:hover,
+nav a:active {
     background-color: #091057;
     color: #DBD3D3;
 }
 
+@media (min-width: 800px) {
+    nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav a:not(:last-child) {
+        margin-bottom: 5px;
+    }
+
+    nav span {
+        display: none;
+    }
+}
+
+/* Footer Styling */
 .footer-left {
     float: left;
 }
@@ -43,75 +62,61 @@ nav a:hover, nav a:active {
     float: right;
 }
 
-.row1 {
-    display: flex; 
+/* Layout and Row Styling */
+.row1, .row2 {
+    display: flex;
     margin: 20px;
     padding: 20px;
-    background-color: #0D92F4;
     border-radius: 10px;
 }
 
+.row1 {
+    background-color: #0D92F4;
+}
+
 .row2 {
-    display: flex; 
-    margin: 20px;
-    padding: 20px;
     background-color: #C62E2E;
     border-radius: 20px;
-    margin-top: 30px
+    margin-top: 30px;
 }
 
-
-.form-container, .map-container {
-    flex: 1;
-    padding: 10px;
-}
-.ChosenFamily {
-    max-width: 100%;
-    height: auto;
-}
-
+/* Contact Section */
 .contact-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-    background-color: #0D92F4; 
-    color: #BCF2F6;
-  }
+.form-container,
+.map-container {
+    flex: 1;
+    padding: 10px;
+}
 
-  
-  .fullscreen-image {
+/* Images */
+.ChosenFamily {
+    float: left;
+    margin-right: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.fullscreen-image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  @media (min-width: 800px) {
-    .fullscreen-image 
-     
-      object-fit: contain;
-      background-color: #f0f0f0; 
+@media (min-width: 800px) {
+    .fullscreen-image {
+        object-fit: contain;
+        background-color: #f0f0f0;
     }
-    nav a {
-        display: block;
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-    }
+}
 
-    nav span {
-        display: none;
-    }
-
-    nav a:not(:last-child) {
-        margin-bottom: 5px;
-    }
-</style>
+/* Utility Classes */
+.clear {
+    clear: both;
+}
