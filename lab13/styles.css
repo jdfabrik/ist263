@@ -26,13 +26,13 @@ nav {
 }
 
 nav a {
-    color: #024CAA;
+    color: #cee1fa;
     padding: 0.625em; 
 }
 
 nav a:hover,
 nav a:active {
-    background-color: #091057;
+    background-color: #000a73;
     color: #DBD3D3;
 }
 
