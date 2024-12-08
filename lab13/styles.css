@@ -10,24 +10,24 @@ body, html {
 
 a {
     color: #F95454;
-    margin: 50px;
+    margin: 3.125em;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: #C62E2E;
-    margin: 50px;
+    margin: 3.125em;
 }
 
-/* Navigation Bar */
+
 nav {
     background-color: #091057;
-    margin-bottom: 30px;
-    padding: 10px;
+    margin-bottom: 1.875em; 
+    padding: 0.625em; 
 }
 
 nav a {
     color: #024CAA;
-    padding: 10px;
+    padding: 0.625em; 
 }
 
 nav a:hover,
@@ -36,16 +36,16 @@ nav a:active {
     color: #DBD3D3;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50em) { 
     nav a {
         display: block;
         width: 100%;
         text-align: center;
-        padding: 10px 0;
+        padding: 0.625em 0; 
     }
 
     nav a:not(:last-child) {
-        margin-bottom: 5px;
+        margin-bottom: 0.3125em; 
     }
 
     nav span {
@@ -53,7 +53,7 @@ nav a:active {
     }
 }
 
-/* Footer Styling */
+
 .footer-left {
     float: left;
 }
@@ -62,12 +62,12 @@ nav a:active {
     float: right;
 }
 
-/* Layout and Row Styling */
+
 .row1, .row2 {
     display: flex;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
+    margin: 1.25em; 
+    padding: 1.25em; 
+    border-radius: 0.625em; 
 }
 
 .row1 {
@@ -76,11 +76,11 @@ nav a:active {
 
 .row2 {
     background-color: #C62E2E;
-    border-radius: 20px;
-    margin-top: 30px;
+    border-radius: 1.25em; 
+    margin-top: 1.875em; 
 }
 
-/* Contact Section */
+
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -89,13 +89,13 @@ nav a:active {
 .form-container,
 .map-container {
     flex: 1;
-    padding: 10px;
+    padding: 0.625em; 
 }
 
 
 .ChosenFamily {
     float: left;
-    margin-right: 10px;
+    margin-right: 0.625em; 
     max-width: 100%;
     height: auto;
 }
@@ -109,13 +109,12 @@ nav a:active {
     object-fit: cover;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50em) { 
     .fullscreen-image {
         object-fit: contain;
         background-color: #f0f0f0;
     }
 }
-
 
 .clear {
     clear: both;
