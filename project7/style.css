@@ -1,0 +1,147 @@
+
+/* General body styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to bottom, #1E90FF, #f4f4f4);
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #ff6f61; /* Vibrant coral */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #fff; /* White text for contrast */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    transition: transform 0.2s, background-color 0.3s;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #fbc02d; /* Bright yellow highlight */
+    transform: scale(1.1);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    color: #ff6f61;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Content styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.content {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ul li strong {
+    color: #ff6f61; /* Highlight important text */
+}
+
+ul li span {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Interactive and visual styles */
+.container:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+
+.family-member {
+    padding: 15px;
+    margin: 15px 0;
+    border: 2px solid #ff6f61;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.family-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive styles */
+@media (max-width: 800px) {
+    nav a {
+        font-size: 16px;
+    }
+    .content {
+        width: 90%;
+    }
+    
+}
