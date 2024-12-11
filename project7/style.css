@@ -1,5 +1,5 @@
 
-/* General body styles */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -10,9 +10,9 @@ body, html {
     scroll-behavior: smooth;
 }
 
-/* Navigation styles */
+
 nav {
-    background-color: #ff6f61; /* Vibrant coral */
+    background-color: #ff6f61; 
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ nav {
 }
 
 nav a {
-    color: #fff; /* White text for contrast */
+    color: #fff; 
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -94,7 +94,7 @@ ul li {
 }
 
 ul li strong {
-    color: #ff6f61; /* Highlight important text */
+    color: #ff6f61;
 }
 
 ul li span {
@@ -104,7 +104,7 @@ ul li span {
     margin-top: 5px;
 }
 
-/* Footer styles */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -114,7 +114,7 @@ footer {
     font-size: 1.1rem;
 }
 
-/* Interactive and visual styles */
+
 .container:hover {
     transform: scale(1.02);
     transition: transform 0.2s ease-in-out;
@@ -135,7 +135,7 @@ footer {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Responsive styles */
+
 @media (max-width: 800px) {
     nav a {
         font-size: 16px;
