@@ -33,11 +33,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #fbc02d; /* Bright yellow highlight */
+    background-color: #fbc02d; 
     transform: scale(1.1);
 }
 
-/* Header styles */
+
 header {
     text-align: center;
     padding: 20px;
@@ -53,7 +53,7 @@ header img {
     margin-bottom: 20px;
 }
 
-/* Content styles */
+
 .container {
     display: flex;
     flex-direction: column;
@@ -82,7 +82,7 @@ header img {
     border-radius: 10px;
 }
 
-/* List styles */
+
 ul {
     list-style-type: none;
     padding: 0;
