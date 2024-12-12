@@ -13,7 +13,7 @@ body, html {
 
 
 nav {
-    background-color: #ff6f61; 
+    background-color: #ce1f10; 
     padding: 15px;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ nav a:hover {
 header {
     text-align: center;
     padding: 20px;
-    color: #e72716;
+    color: #d01e0e;
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -95,7 +95,7 @@ ul li {
 }
 
 ul li strong {
-    color: #e7210f;
+    color: #d72010;
 }
 
 ul li span {
