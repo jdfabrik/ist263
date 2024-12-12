@@ -33,9 +33,10 @@ nav a {
     border-radius: 5px;
 }
 
-nav a:hover {
-    background-color: #020100; 
+nav a:hover { 
     transform: scale(1.1);
+    background-color: #DBD3D3;
+    color: #fc29bc;
 }
 
 
