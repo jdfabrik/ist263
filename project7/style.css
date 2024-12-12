@@ -42,7 +42,7 @@ nav a:hover {
 header {
     text-align: center;
     padding: 20px;
-    color: #fe4837;
+    color: #e72716;
     background-color: #fff;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -95,7 +95,7 @@ ul li {
 }
 
 ul li strong {
-    color: #ff6f61;
+    color: #e7210f;
 }
 
 ul li span {
@@ -110,7 +110,7 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-    background-color: #ff6f61;
+    background-color: #d53021;
     color: #fff;
     font-size: 1.1rem;
 }
@@ -121,20 +121,6 @@ footer {
     transition: transform 0.2s ease-in-out;
 }
 
-.family-member {
-    padding: 15px;
-    margin: 15px 0;
-    border: 2px solid #ff6f61;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-}
-
-.family-member:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
 
 
 @media (max-width: 800px) {
