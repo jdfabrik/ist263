@@ -14,10 +14,10 @@ body, html {
 
 nav {
     background-color: #ce1f10; 
-    padding: 15px;
+    padding: 1em;
     display: flex;
     justify-content: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0em .25em .5em rgba(0, 0, 0, 0.2);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -26,11 +26,11 @@ nav {
 nav a {
     color: #fff; 
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 20px;
+    margin: 0 1em;
+    font-size: 1.25em;
     transition: transform 0.2s, background-color 0.3s;
-    padding: 5px 10px;
-    border-radius: 5px;
+    padding: .3125em .625em;
+    border-radius: .3125em;
 }
 
 nav a:hover { 
@@ -42,17 +42,17 @@ nav a:hover {
 
 header {
     text-align: center;
-    padding: 20px;
+    padding: 1.25em;
     color: #d01e0e;
     background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0em .25em .5em rgba(0, 0, 0, 0.1);
 }
 
 header img {
     max-width: 300%;
     height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: .3125em;
+    margin-bottom: .625em;
 }
 
 
@@ -60,28 +60,28 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: .625em;
 }
 
 .content {
     width: 80%;
-    max-width: 800px;
-    margin: 20px 0;
-    padding: 20px;
+    max-width: 48em;
+    margin: 1.25em 0;
+    padding: 1.25em;
     background: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: .625em;
+    box-shadow: 0 .25em .375em rgba(0, 0, 0, 0.1);
 }
 
 .image-container {
     width: 100%;
     text-align: center;
-    margin: 20px 0;
+    margin: 1.25em 0;
 }
 
 .image-container img {
     max-width: 150%;
-    border-radius: 10px;
+    border-radius: .625em;
 }
 
 
@@ -91,8 +91,8 @@ ul {
 }
 
 ul li {
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    padding: .3125em 0;
+    border-bottom: .125em solid #ddd;
 }
 
 ul li strong {
@@ -103,14 +103,14 @@ ul li span {
     display: block;
     font-size: 0.9rem;
     color: #555;
-    margin-top: 5px;
+    margin-top: .3125em;
 }
 
 
 footer {
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 1.25em;
+    margin-top: 1.25em;
     background-color: #d53021;
     color: #fff;
     font-size: 1.1rem;
@@ -124,9 +124,9 @@ footer {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 48em) {
     nav a {
-        font-size: 16px;
+        font-size: 1em;
     }
     .content {
         width: 90%;
